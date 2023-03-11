@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:darkgray;
+}
+
+nav {
+    background: black;
+    width: 100%;
+    line-height: 50px;
+    font-weight: bold;
+}
+.liststyl {
+    display: flex;
+    list-style: none;
+}
+.active1 {
+    background: rgba(0, 70, 161, 0.842);
+}
+nav ul li:hover {
+    background-color: rgba(0, 70, 161, 0.842);
+    transition: .5s;
+}
+nav ul li a {
+    color: white;
+    padding: 20px 20px 16.5px 20px;
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+.watch1 {
+    /* border: solid 2px black; */
+    margin: 50px 20px 50px 20px; 
+    height: 400px;
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:silver;
+    box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.8);
+}
+.card {
+    text-align: center;
+}
+.watch1:hover {
+    box-shadow: 0 6px 11px 0 rgba(0, 0, 0, 0.10);
+    transition: 0.5s;
+}
+.sizeimage {
+    width: 100%;
+}
+footer {
+    position: fixed;
+    color: white;
+    height: 30px;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+}
