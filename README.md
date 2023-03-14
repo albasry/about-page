@@ -1,3 +1,6 @@
+# About page
+![website](https://github.com/albasry/about-page/blob/master/viewsite.jpg)
+
 # CSS skill development project
     * This project bulde by HTML & CSS 
     * This project is an exercise to develop CSS skills
